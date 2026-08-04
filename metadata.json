@@ -1,0 +1,6 @@
+{
+  "name": "CampusConnect",
+  "description": "Unified hub for student marketplace, skill exchange, campus notices, and staff tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,312 @@
+{
+  "schema": {
+    "users": [
+      {
+        "id": "usr_admin",
+        "name": "Dr. Arumugam (Principal NCT)",
+        "email": "principal@nandha.edu",
+        "rollNumber": "NCT-PRINCIPAL",
+        "department": "Other",
+        "profilePicture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+        "skills": [
+          "Academic Leadership",
+          "Administration",
+          "Anna University Affiliation",
+          "Research & Development"
+        ],
+        "portfolioLinks": [
+          {
+            "title": "Principal Office",
+            "url": "https://nandhatech.org/principal"
+          }
+        ],
+        "ratings": {
+          "average": 5,
+          "reviews": []
+        },
+        "role": "admin",
+        "createdAt": "2026-07-08T07:56:12.159Z"
+      },
+      {
+        "id": "usr_clublead",
+        "name": "Dinesh Kumar",
+        "email": "dineshkumar@nandhatech.org",
+        "rollNumber": "NCT-IT-23-014",
+        "department": "IT",
+        "profilePicture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+        "skills": [
+          "React",
+          "Python",
+          "Tailwind CSS",
+          "Embedded IoT Systems"
+        ],
+        "portfolioLinks": [
+          {
+            "title": "NCT Dev Club",
+            "url": "https://github.com/nct-dev-club"
+          }
+        ],
+        "ratings": {
+          "average": 4.8,
+          "reviews": [
+            {
+              "reviewerId": "usr_student",
+              "reviewerName": "Vignesh Balaji",
+              "comment": "Fantastic help with my Arduino mini project lab internals!",
+              "stars": 5,
+              "createdAt": "2026-07-05T07:56:12.162Z"
+            }
+          ]
+        },
+        "role": "club_lead",
+        "createdAt": "2026-07-08T07:56:12.162Z"
+      },
+      {
+        "id": "usr_student",
+        "name": "Vignesh Balaji",
+        "email": "vignesh@nandhatech.org",
+        "rollNumber": "NCT-IT-24-045",
+        "department": "IT",
+        "profilePicture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+        "skills": [
+          "Java",
+          "SQL",
+          "C Programming",
+          "Soldering"
+        ],
+        "portfolioLinks": [
+          {
+            "title": "My Portfolios",
+            "url": "https://github.com/vignesh-nandha"
+          }
+        ],
+        "ratings": {
+          "average": 4.5,
+          "reviews": []
+        },
+        "role": "student",
+        "createdAt": "2026-07-08T07:56:12.162Z"
+      },
+      {
+        "id": "usr_1783497737070",
+        "name": "ateequr rahman",
+        "email": "athiq@college.edu",
+        "rollNumber": "IT-24-012",
+        "department": "IT",
+        "profilePicture": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150",
+        "skills": [],
+        "portfolioLinks": [],
+        "ratings": {
+          "average": 5,
+          "reviews": []
+        },
+        "role": "student",
+        "createdAt": "2026-07-08T08:02:17.070Z"
+      }
+    ],
+    "marketplace": [
+      {
+        "id": "item_2",
+        "sellerId": "usr_clublead",
+        "sellerName": "Dinesh Kumar",
+        "sellerEmail": "dineshkumar@nandhatech.org",
+        "sellerDepartment": "IT",
+        "title": "Nandha College Regulation White Lab Coat (Size L)",
+        "description": "White cotton lab coat required for Chemistry and Physics lab sessions. Freshly washed, no chemical stains.",
+        "price": 150,
+        "imageUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400",
+        "category": "Lab Equipment",
+        "status": "Available",
+        "createdAt": "2026-07-07T07:56:12.162Z"
+      },
+      {
+        "id": "item_1",
+        "sellerId": "usr_student",
+        "sellerName": "Vignesh Balaji",
+        "sellerEmail": "vignesh@nandhatech.org",
+        "sellerDepartment": "IT",
+        "title": "Anna University Engineering Physics Textbook (Regulation 2021)",
+        "description": "First semester textbook by S. Chand Publications. Clean pages, no pencil markings. Vital for first-year engineering students across all departments in Tamil Nadu.",
+        "price": 180,
+        "imageUrl": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400",
+        "category": "Books",
+        "status": "Available",
+        "createdAt": "2026-07-06T07:56:12.162Z"
+      },
+      {
+        "id": "item_4",
+        "sellerId": "usr_student",
+        "sellerName": "Vignesh Balaji",
+        "sellerEmail": "vignesh@nandhatech.org",
+        "sellerDepartment": "IT",
+        "title": "Casio fx-991MS Scientific Calculator",
+        "description": "Original Casio 401-functions calculator. Essential and officially permitted for Anna University semester exams and internal tests.",
+        "price": 750,
+        "imageUrl": "https://images.unsplash.com/photo-1574607383476-f517f220d398?w=400",
+        "category": "Gadgets",
+        "status": "Available",
+        "createdAt": "2026-07-05T07:56:12.162Z"
+      },
+      {
+        "id": "item_3",
+        "sellerId": "usr_student",
+        "sellerName": "Vignesh Balaji",
+        "sellerEmail": "vignesh@nandhatech.org",
+        "sellerDepartment": "IT",
+        "title": "Campus Bicycle - Hero Sprint (Hostel to Lab)",
+        "description": "Perfect single-speed bicycle for daily commute between NCT hostels, cafeteria, and academic blocks. Smooth breaks and robust air-tight tyres.",
+        "price": 3200,
+        "imageUrl": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=400",
+        "category": "Bikes",
+        "status": "Available",
+        "createdAt": "2026-07-04T07:56:12.162Z"
+      },
+      {
+        "id": "item_5",
+        "sellerId": "usr_student",
+        "sellerName": "Vignesh Balaji",
+        "sellerEmail": "vignesh@nandhatech.org",
+        "sellerDepartment": "IT",
+        "title": "Engineering Mini Drafter & Drafting Board",
+        "description": "Omicron brand standard mini-drafter with board and protective carrying bag. Required for Engineering Graphics (EG) lab sessions.",
+        "price": 650,
+        "imageUrl": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400",
+        "category": "Lab Equipment",
+        "status": "Available",
+        "createdAt": "2026-07-03T07:56:12.162Z"
+      },
+      {
+        "id": "item_1783497830222",
+        "sellerId": "usr_1783497737070",
+        "sellerName": "ateequr rahman",
+        "sellerEmail": "athiq@college.edu",
+        "sellerDepartment": "IT",
+        "title": "python programming",
+        "description": "good condition with all pages",
+        "price": 200,
+        "imageUrl": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400",
+        "category": "Books",
+        "status": "Available",
+        "createdAt": "2026-07-08T08:03:50.222Z"
+      }
+    ],
+    "services": [
+      {
+        "id": "srv_1",
+        "providerId": "usr_clublead",
+        "providerName": "Dinesh Kumar",
+        "providerEmail": "dineshkumar@nandhatech.org",
+        "providerDepartment": "IT",
+        "providerSkills": [
+          "React",
+          "Python",
+          "Tailwind CSS",
+          "Embedded IoT Systems"
+        ],
+        "providerRating": 4.8,
+        "skillCategory": "Python Programming Tutors",
+        "description": "Offering tutoring sessions for GE3151 Problem Solving and Python Programming syllabus. Great for clearing internal exams.",
+        "hourlyRate": 100,
+        "startingPrice": 250,
+        "createdAt": "2026-07-03T07:56:12.162Z"
+      },
+      {
+        "id": "srv_2",
+        "providerId": "usr_student",
+        "providerName": "Vignesh Balaji",
+        "providerEmail": "vignesh@nandhatech.org",
+        "providerDepartment": "IT",
+        "providerSkills": [
+          "Java",
+          "SQL",
+          "C Programming",
+          "Soldering"
+        ],
+        "providerRating": 4.5,
+        "skillCategory": "Mini Project Circuit Soldering",
+        "description": "Can help solder circuits and troubleshoot PCB connections for your hardware design mini-projects.",
+        "hourlyRate": 120,
+        "startingPrice": 300,
+        "createdAt": "2026-07-06T07:56:12.162Z"
+      }
+    ],
+    "requirements": [
+      {
+        "id": "req_1",
+        "posterId": "usr_student",
+        "posterName": "Vignesh Balaji",
+        "posterEmail": "vignesh@nandhatech.org",
+        "posterDepartment": "IT",
+        "title": "Need a team member for Anna University Smart India Hackathon internal selection",
+        "description": "Developing an agricultural soil testing system. Hardware and sensor integrations are ready, need someone experienced in web development or UI design using React and Tailwind.",
+        "budget": 1500,
+        "category": "Software/Design",
+        "responses": [],
+        "isOpen": true,
+        "createdAt": "2026-07-07T07:56:12.162Z"
+      }
+    ],
+    "notices": [
+      {
+        "id": "not_1",
+        "authorId": "usr_admin",
+        "authorName": "Dr. Arumugam (Principal NCT)",
+        "authorRole": "admin",
+        "title": "Strict Attendance Guidelines for Practical Lab Examinations",
+        "content": "All engineering students must possess a minimum of 75% attendance to qualify for the upcoming Anna University Practical Examinations starting next week. Strictly no exceptions.",
+        "type": "General",
+        "expiryDate": "2026-07-18T07:56:12.162Z",
+        "createdAt": "2026-07-05T07:56:12.162Z"
+      },
+      {
+        "id": "not_2",
+        "authorId": "usr_clublead",
+        "authorName": "Dinesh Kumar",
+        "authorRole": "club_lead",
+        "title": "Nandha Tech HackFest 2026: Inter-College Hackathon",
+        "content": "Nandha College of Technology is hosting an overnight hackathon in the IT Seminar Hall. Technical project showcases on Web Development, AI, and IoT are welcome. Register with your department coordinator.",
+        "type": "Event",
+        "expiryDate": "2026-07-14T07:56:12.162Z",
+        "createdAt": "2026-07-07T07:56:12.162Z"
+      }
+    ],
+    "staff": [
+      {
+        "id": "stf_1",
+        "staffName": "Dr. Karthik",
+        "designation": "Head of the Department (HOD)",
+        "department": "IT",
+        "currentLocation": "HOD Cabin, IT Block Ground Floor",
+        "availabilityStatus": "Available",
+        "availableUntil": "4:30 PM",
+        "lastUpdated": "2026-07-08T07:56:12.162Z"
+      },
+      {
+        "id": "stf_2",
+        "staffName": "Prof. Krishna",
+        "designation": "Assistant Professor (IT Dept)",
+        "department": "IT",
+        "currentLocation": "IT Department Staff Room, 2nd Floor",
+        "availabilityStatus": "Busy",
+        "availableUntil": "3:00 PM",
+        "lastUpdated": "2026-07-08T07:56:12.162Z"
+      },
+      {
+        "id": "stf_3",
+        "staffName": "Prof. Madhu Suganya",
+        "designation": "Assistant Professor (IT DEPT)",
+        "department": "IT",
+        "currentLocation": "IT Faculty Cabin 3A, 2nd Floor",
+        "availabilityStatus": "Available",
+        "availableUntil": "4:15 PM",
+        "lastUpdated": "2026-07-08T07:56:12.162Z"
+      }
+    ]
+  },
+  "passHashes": {
+    "usr_admin": "88cf3ec647961a6cd18274d4af368a4be0988e21dd2e9ce39c78b6696ccc0c98",
+    "usr_clublead": "bb153216d1f42b476250a5e3641590f7b61e84a35d17887bb5610bdc9494ea6b",
+    "usr_student": "9f13b6ed9d05e1d1fe7e865a29af7ff85c773b1dac228688d84861b666c3291f",
+    "usr_1783497737070": "4362943b9c167f1994f61916d99463ef9712283450636252bf84268f581a32ce"
+  }
+}
